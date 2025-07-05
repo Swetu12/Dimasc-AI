@@ -6,7 +6,6 @@ import { cn } from '@/lib/utils';
 import {useChatStore} from "@/stores/chat-store";
 
 import {useGetAllChatsQuery} from "@/lib/queries/Queries";
-import {AppSidebar} from "@/components/app-sidebar";
 import { SidebarTrigger} from "@/components/ui/sidebar";
 import ActionSearchBar from "@/components/search-bar";
 import {AnimatePresence, motion} from "framer-motion";

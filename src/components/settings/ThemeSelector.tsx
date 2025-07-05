@@ -5,7 +5,7 @@ export function ThemeSelector() {
     const { setTheme, resolvedTheme } = useTheme();
 
     return (
-        <div className="w-full max-w-full p-4">
+        <div className="w-full max-w-full">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                 <DarkThemeToggle
                     theme="light"

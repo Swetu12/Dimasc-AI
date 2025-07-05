@@ -5,7 +5,7 @@ export async function UserData() {
         method: "GET",
         credentials: "include",
         headers: {
-            Authorization: `Bearer ${Cookies.get("auth")}`,
+            "Authorization": `Bearer ${Cookies.get("auth")}`,
             "Content-Type": "application/json",
         },
     });
@@ -20,7 +20,7 @@ export async function SubscriptionData() {
         method: "GET",
         credentials: "include",
         headers: {
-            Authorization: `Bearer ${Cookies.get("auth")}`,
+            "Authorization": `Bearer ${Cookies.get("auth")}`,
             "Content-Type": "application/json",
         },
     });
