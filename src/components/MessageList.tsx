@@ -139,7 +139,7 @@ export const MessageList = () => {
                         <Loader className="w-4 h-4 animate-spin" />
                     </div>
                 )}
-                <div className="divide-y divide-border">
+                <div className="divide-t divide-border">
                     {displayMessages.map((message: ChatMessage & { isLoading?: boolean }) => (
                         <MessageItem
                             key={message.id}

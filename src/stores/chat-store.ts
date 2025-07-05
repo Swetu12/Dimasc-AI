@@ -6,6 +6,7 @@ export const useChatStore = create<ChatStoreTypes>((set) => ({
     currentChatId: null,
     sidebarOpen: true,
     isSendingMessage: false,
+    isSearchBarOpen: false,
 
     setChatResponse: (data) => set((state) => ({
         chatResponse: [...state.chatResponse, data]
@@ -14,4 +15,5 @@ export const useChatStore = create<ChatStoreTypes>((set) => ({
     clearCurrentChatId: () => set({ currentChatId: null }),
     setSidebarOpen: (open) => set({ sidebarOpen: open }),
     setIsSendingMessage: (isSending) => set({ isSendingMessage: isSending }),
+    setIsSearchBarOpen: (isOpen) => set({ isSearchBarOpen: isOpen }),
 }))

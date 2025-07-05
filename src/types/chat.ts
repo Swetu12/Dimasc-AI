@@ -21,6 +21,8 @@ export interface ChatStoreTypes {
   setSidebarOpen: (open: boolean) => void;
   isSendingMessage: boolean;
   setIsSendingMessage: (isSending: boolean) => void;
+  isSearchBarOpen: boolean;
+    setIsSearchBarOpen: (isOpen: boolean) => void;
 }
 
 interface ChatResponse {
@@ -43,7 +45,6 @@ export interface ChatMessage {
 export interface ChatOptionMenuModalProps {
   currentTitle: string;
   onSave: (newTitle: string) => void;
-  onDelete: () => void;
   isOptionMenuOpen: boolean;
   setIsOptionMenuOpen: (isOpen: boolean) => void;
 }

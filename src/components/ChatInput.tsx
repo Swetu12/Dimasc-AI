@@ -57,7 +57,7 @@ export const ChatInput = () => {
   };
 
   return (
-    <div className="border-t border-border bg-background p-4">
+    <div className="bg-background p-4">
       <Toaster position={`top-center`} richColors />
       <div className="max-w-4xl mx-auto">
         <form onSubmit={handleSubmit} className="flex gap-2">
