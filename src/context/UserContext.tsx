@@ -30,9 +30,11 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
     queryFn: UserData,
   });
 
+
   if (isError) {
     console.error("Error fetching user data");
   }
+
 
   return (
     <UserContext.Provider value={{ user: data ?? null, loading: isLoading }}>

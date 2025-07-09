@@ -1,18 +1,15 @@
 import Cookies from "js-cookie";
+import axios from "axios";
 
 export async function UserData() {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/user`, {
-        method: "GET",
-        credentials: "include",
+    const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/user`, {
+        withCredentials: true,
         headers: {
             "Authorization": `Bearer ${Cookies.get("auth")}`,
             "Content-Type": "application/json",
-        },
-    });
-    if (!res.ok) {
-        throw new Error("Failed to fetch user data");
-    }
-    return res.json();
+        }
+    })
+    return response.data;
 }
 
 export async function SubscriptionData() {
