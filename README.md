@@ -132,5 +132,7 @@ git clone https://github.com/Swetu12/Dimasc-AI
 npm install
 npm run dev
 
+```
+
 🤝 Collaborators
-<p>Give a ⭐ if you like this project!</p> <table> <tr> <td align="center"> <a href="https://github.com/Swetu12"> <img src="https://avatars.githubusercontent.com/u/102142947?v=4" width="100px;" alt="Alexandru Geroc"/><br> <sub><b>Alexandru Geroc</b></sub> </a> </td> <td align="center"> <a href="https://github.com/sebastianflaviusdev"> <img src="https://avatars.githubusercontent.com/u/137168853?v=4" width="100px;" alt="Sebastian Flavius Dev"/><br> <sub><b>Sebastian Flavius Dev</b></sub> </a> </td> </tr> </table> ```
+<p>Give a ⭐ if you like this project!</p> <table> <tr> <td align="center"> <a href="https://github.com/Swetu12"> <img src="https://avatars.githubusercontent.com/u/102142947?v=4" width="100px;" alt="Alexandru Geroc"/><br> <sub><b>Alexandru Geroc</b></sub> </a> </td> <td align="center"> <a href="https://github.com/sebastianflaviusdev"> <img src="https://avatars.githubusercontent.com/u/137168853?v=4" width="100px;" alt="Sebastian Flavius Dev"/><br> <sub><b>Sebastian Flavius Dev</b></sub> </a> </td> </tr> </table> 
