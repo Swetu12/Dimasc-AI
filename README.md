@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dimasc-ai.vercel.app/">📱 Visit this Project</a>
+  <a href="https://dimasc-ai.netlify.app/">📱 Visit this Project</a>
 </p>
 
 ---
